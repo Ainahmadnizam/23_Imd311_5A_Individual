@@ -1,0 +1,125 @@
+body
+   {
+    background-color: whitesmoke;
+   }
+
+a
+   {
+    text-decoration: none;
+    padding-right:  48px;
+    font-family: impact;
+    font-size: 18pt;
+    color: purple;
+   }
+
+
+a:hover
+   {
+    color:#D3BBDD;
+    background-color: whitesmoke;
+   }
+
+
+ /* Header/Logo Title */.header 
+  {
+    padding: 10px;
+    text-align: center;
+    background:#D3BBDD;
+    color: purple;
+    font-size: 35px;
+  }
+ 
+ 
+ button 
+  {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #D3BBDD;
+    border: #D3BBDD;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+ 
+ 
+ .lineUp 
+  {
+    animation: 2s anim-lineUp ease-out infinite;
+  }
+ @keyframes anim-lineUp 
+{
+     0% {
+     opacity: 0;
+     transform: translateY(80%);
+   }
+   20% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0%);
+   }
+ }
+ 
+
+  h2 
+  {
+    color: black;
+    text-align: center;
+    font: Engravers MT;
+    font-size: 25px;
+  }
+
+ footer 
+  {
+    text-align: center;
+    padding: 5px;
+    background-color: #D3BBDD;
+    color: purple;
+  }
+
+
+table, tr, td, th
+  {
+    border: 1px solid purple;
+    border-collapse: collapse;
+  }
+
+
+table
+  {
+    width: 600px;
+  }
+
+
+th
+  { background-color: #D3BBDD;
+    color: purple;
+  }
+
+
+tr
+  {
+    background-color: #D3BBDD;
+  }
+
+
+tr:nth-child(odd)
+   {
+    background-color: #D3BBDD;
+   }
+
+
+tr:hover
+   {
+    background-color: #D3BBDD
+   }
